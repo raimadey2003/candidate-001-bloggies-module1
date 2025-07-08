@@ -24,7 +24,7 @@ function App() {
   const fetchTrends = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3001/api/trends');
+      const response = await fetch('https://candidate-001-bloggies-module1.vercel.app/api/trends');
       const data = await response.json();
       
       if (data.success) {

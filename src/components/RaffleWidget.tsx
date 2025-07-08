@@ -15,7 +15,7 @@ const RaffleWidget: React.FC<RaffleWidgetProps> = ({ credits }) => {
     setShowResult(false);
     
     try {
-      const response = await fetch('https://candidate-001-bloggies-module1.vercel.app/api/raffle', {
+      const response = await fetch('http://localhost:3001/api/raffle', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });

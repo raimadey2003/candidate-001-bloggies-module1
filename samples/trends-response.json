@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "uuid-1",
+      "topic": "AI Revolution",
+      "platform": "Twitter/X",
+      "volume": 87543,
+      "sentiment": "positive",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "growth": 345,
+      "category": "Technology"
+    },
+    {
+      "id": "uuid-2",
+      "topic": "Climate Change",
+      "platform": "Reddit",
+      "volume": 76234,
+      "sentiment": "neutral",
+      "timestamp": "2024-01-15T10:25:00Z",
+      "growth": 198,
+      "category": "Environment"
+    },
+    {
+      "id": "uuid-3",
+      "topic": "Space Exploration",
+      "platform": "Google Trends",
+      "volume": 65432,
+      "sentiment": "positive",
+      "timestamp": "2024-01-15T10:20:00Z",
+      "growth": 267,
+      "category": "Science"
+    }
+  ],
+  "cached": false,
+  "creditsAwarded": 1,
+  "totalCredits": 5
+}

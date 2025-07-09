@@ -34,7 +34,7 @@ npm install
 
 3. Set up environment variables:
 
-.env
+.env (file name)
 ```bash
 PORT=3001
 STRIPE_SECRET_KEY=sk_test_4eC39HqLyjWDarjtT1zdp7dc

@@ -210,10 +210,10 @@ npm run build
 - TypeScript throughout for type safety
 
 ## 📞 Support
-
+```
 For any questions or issues, please contact me:
-Lnkedin : http://localhost:3001/api/raffle
+Lnkedin : https://www.linkedin.com/in/raima-dey-13426a351/
 E-Mail : raimadey9836@gmail.com
-
+```
 ---
 Built by Raima Dey

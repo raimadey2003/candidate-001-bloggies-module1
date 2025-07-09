@@ -19,7 +19,7 @@ A production-ready trend scraping application that fetches real-time trending to
 - **Storage**: In-memory (production would use database)
 - **Icons**: Lucide React
 
-## 📦 Installation
+## 📦 Set Up & Installation
 
 1. Clone the repository:
 ```bash

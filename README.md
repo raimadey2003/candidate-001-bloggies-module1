@@ -7,7 +7,7 @@ A production-ready trend scraping application that fetches real-time trending to
 - **Real-time Trend Scraping**: Fetches top 10 trending topics from multiple platforms
 - **Ecosystem Integration**: Awards credits on each API call
 - **Interactive Raffle Widget**: Spin-to-win functionality with prizes
-- **Stripe Payment Integration**: Mock $7 "Pro Meme Pack" checkout
+- **Stripe Payment Integration**: Mock $7 "Pro Tend Pack" checkout
 - **Beautiful UI**: Modern, responsive design with Tailwind CSS
 - **TypeScript Support**: Full type safety throughout the application
 
@@ -23,8 +23,8 @@ A production-ready trend scraping application that fetches real-time trending to
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/candidate-001-bloggies-trend-scraper.git
-cd candidate-001-bloggies-trend-scraper
+git clone https://github.com/raimadey2003/candidate-001-bloggies-module1.git
+cd candidate-001-bloggies-module1
 ```
 
 2. Install dependencies:
@@ -33,11 +33,25 @@ npm install
 ```
 
 3. Set up environment variables:
-```bash
-cp .env.example .env
-```
 
-Update the `.env` file with your Stripe test keys (defaults provided work for testing).
+.env
+```bash
+PORT=3001
+STRIPE_SECRET_KEY=sk_test_4eC39HqLyjWDarjtT1zdp7dc
+STRIPE_PUBLISHABLE_KEY=pk_test_TYooMQauvdEDq54NiTphI7jx
+```
+4. Start the Backend Server
+```bash
+In the same terminal run:
+node server/index.js
+(Launch backend on localhost:3001 by running)
+```
+5. Start the Frontend Development Server
+```bash
+Open another terminal in the same project folder and run:
+npm run dev
+(Launch the app on localhost:5173 by running)
+```
 
 ## 🚀 Running the Application
 
@@ -45,17 +59,37 @@ Update the `.env` file with your Stripe test keys (defaults provided work for te
 ```bash
 npm run dev
 ```
+### Backend 
+```bash
+node server/index.js
+````
 
 This starts both the frontend (port 5173) and backend (port 3001) concurrently.
 
-### Individual Services
-```bash
-# Frontend only
-npm run client
 
-# Backend only
-npm run server
+
+## 🚢 Deployment
 ```
+1. Clone the Repository
+2. Install Dependencies
+Open a terminal in the project folder and run:
+npm install
+3. Start the Backend Server
+In the same terminal (or a new one), run:
+node server/index.js
+(Launch backend on localhost:3001 by running)
+4. Start the Frontend Development Server
+Open another terminal in the same project folder and run:
+npm run dev
+(Launch the app on localhost:5173 by running)
+✅ Important: Make sure to start the backend first (node server/index.js) before running npm run dev to ensure everything works correctly
+
+5. Open the Vercel Link:
+After the local servers are running successfully, you may open the provided Vercel deployment link in your browser.
+
+https://candidate-001-bloggies-module1-hea6.vercel.app/
+```
+
 
 ## 🔧 API Endpoints
 
@@ -122,23 +156,7 @@ curl -X POST http://localhost:3001/api/raffle
 | `STRIPE_SECRET_KEY` | Stripe secret key (test) | sk_test_4eC39HqLyjWDarjtT1zdp7dc |
 | `STRIPE_PUBLISHABLE_KEY` | Stripe publishable key (test) | pk_test_TYooMQauvdEDq54NiTphI7jx |
 
-## 📁 Project Structure
 
-```
-├── server/
-│   └── index.ts          # Express server with API endpoints
-├── src/
-│   ├── components/
-│   │   ├── TrendCard.tsx      # Individual trend display
-│   │   ├── RaffleWidget.tsx   # Interactive raffle component
-│   │   └── StripeCheckout.tsx # Payment integration
-│   ├── App.tsx           # Main application component
-│   └── main.tsx          # React entry point
-├── samples/
-│   ├── trends-response.json    # Sample API response
-│   └── ecosystem-response.json # Sample ecosystem response
-└── README.md
-```
 
 ## 🌟 Key Features Implemented
 
@@ -155,7 +173,7 @@ curl -X POST http://localhost:3001/api/raffle
 
 ### ✅ Payment Integration
 - [x] Stripe test mode setup
-- [x] $7 Pro Meme Pack checkout
+- [x] $7 Pro Trend Pack checkout
 - [x] Payment intent creation
 - [x] Mock successful transactions
 
@@ -165,13 +183,6 @@ curl -X POST http://localhost:3001/api/raffle
 - [x] Intuitive user interface
 - [x] Production-ready styling
 
-## 🚢 Deployment
-
-The application is ready for deployment on:
-- **Vercel** (recommended for frontend)
-- **Netlify** (frontend)
-- **Render** (full-stack)
-- **Railway** (backend)
 
 ### Build for Production
 ```bash
@@ -197,10 +208,9 @@ npm run build
 
 ## 📞 Support
 
-For any questions or issues, please contact the development team or refer to the documentation.
+For any questions or issues, please contact me:
+Lnkedin : http://localhost:3001/api/raffle
+E-Mail : raimadey9836@gmail.com
 
 ---
-
-**Candidate**: 001  
-**Module**: Trend Scraper  
-**Status**: Production Ready ✅
+Built by Raima Dey

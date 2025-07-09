@@ -90,7 +90,10 @@ After the local servers are running successfully, you may open the provided Verc
 https://candidate-001-bloggies-module1-hea6.vercel.app/
 ```
 
-
+### 📊 Sample Responses
+```bash
+See /samples directory for samples.
+```
 ## 🔧 API Endpoints
 
 ### GET /api/trends
